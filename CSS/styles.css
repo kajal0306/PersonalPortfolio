@@ -1,0 +1,191 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: #649dad;
+}
+
+.navbar-nav {
+  margin-left: 67%;
+  font-size: 15px;
+  letter-spacing: 0.2rem;
+}
+
+.home {
+  background-color: #c8f4de;
+  margin-top: 2%;
+  padding: 10% 15% 7%;
+  text-align: center;
+}
+
+.button {
+  padding: 12px 50px;
+  margin-top: 3%;
+  color: #007bff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 170px;
+  line-height: 1.5;
+  font-family: 'Ubuntu', sans-serif;
+}
+.button_border{
+  background-color: #c8f4de;
+  color: #007bff;
+  border: 1px solid #008CBA;
+  border-radius: 4px;
+
+}
+.button:hover{
+  background-color: #008CBA;
+  color: white;
+}
+
+h1{
+  letter-spacing: 0.4rem;
+  padding-top: 2%;
+  font-weight: bold;
+  font-size: 75px;
+  color: #649dad;
+  text-align: center;
+}
+
+h2,h3{
+  letter-spacing: 0.2rem;
+  font-size: 25px;
+  font-weight: bold;
+  color: #649dad;
+
+}
+
+/*================= About================= */
+.about{
+  padding: 3% 15% 7%;
+  background-color: #a4e5d9;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.about-img {
+  margin-left: 20%;
+  height: 300px;
+  width: 60%;
+}
+
+.about-content {
+  padding-top: 20px;
+}
+
+.about__subtitle{
+  font-family: "Montserrat-Black";
+  letter-spacing: 0.05em;
+  line-height: 1.6em;
+  font-size: 18px;
+  color: #585858;
+}
+
+/* ===========portfolio=================*/
+
+.my-work {
+  background-color: #c8f4de;
+  color: #649dad;
+  text-align: center;
+  padding: 3% 15% 7%;
+}
+
+.section__title{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.portfolio__img{
+  transition:
+       transform 750ms cubic-bezier(.5, 0, .5, 1),
+       opacity 250ms linear;
+       height: 200px;
+       width: 100%;
+}
+.portfolio__img:hover {
+    transform: scale(1.2);
+    opacity: .5;
+}
+.portfolio__item {
+    overflow: hidden;
+}
+
+
+/*================ Contact form========================= */
+
+.contact {
+  background-color: #71c9ce;
+  padding: 7% 20%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  /*==============Rounded borders=======================*/
+
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #0a81ab;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #126e82;
+}
+
+/*========== Footer Section=================== */
+
+.footer{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #204051;
+}
+.social-icon {
+  margin: 20px 10px;
+  align-items: center;
+  color: #f5f5f5;
+}
+.footer_title{
+  padding: 2%;
+  color: #f5f5f5;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}
